@@ -120,6 +120,7 @@ void delay_time(int number){
 }
 
 void _exit(int status) {
+	while(1);
 }
 /********************************************************************/
 
