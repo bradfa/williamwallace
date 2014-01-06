@@ -1,3 +1,5 @@
 *.swp
 *.elf
 *.map
+*.o
+blinky
