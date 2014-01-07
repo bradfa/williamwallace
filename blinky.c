@@ -6,7 +6,6 @@
 
 #include "assert.h"
 #include "stdlib.h"
-#include "freedom.h"
 #include "MKL25Z4.h"
 
 #define SLOW_BLINK      (10000000)
