@@ -1,5 +1,5 @@
 William Wallace
-###############
+===============
 
 A very simple red blinken' light on the [FRDM-KL25Z][0] dev kit from Freescale.
 
