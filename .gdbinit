@@ -1,3 +1,4 @@
+# For J-Link GDB debugging
 target remote localhost:2331
 monitor endian little
 monitor reset
