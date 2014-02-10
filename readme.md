@@ -51,6 +51,32 @@ Connecting to target...Connected to target
 Waiting for GDB connection...
 ```
 
+Connect to the GDB server with gdb:
+
+```
+andrew@boomboom:~/git/williamwallace$ arm-none-eabi-gdb localhost:2331
+GNU gdb (GNU Tools for ARM Embedded Processors) 7.6.0.20131129-cvs
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "--host=x86_64-unknown-linux-gnu --target=arm-none-eabi".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+localhost:2331: No such file or directory.
+0x00000000 in ?? ()
+Target endianess set to "little endian"
+Resetting target
+Selecting device: MKL25Z128xxx4
+Loading section .text, size 0xa0 lma 0x800
+Loading section .romp, size 0x18 lma 0x8a0
+Start address 0x800, load size 184
+Transfer rate: 1472 bits in <1 sec, 92 bytes/write.
+Sleep 1000ms
+(gdb)
+```
+
 [0]: http://www.element14.com/community/docs/DOC-54879
 [1]: https://launchpad.net/gcc-arm-embedded
 [2]: http://www.segger.com/debug-probes.html
